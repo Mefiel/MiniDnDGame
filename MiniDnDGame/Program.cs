@@ -17,7 +17,7 @@ class MiniDnDGame
         string[] path = new string[3]; // Store player's path choices, this will determine whether player succeeds or fails
 
         Console.WriteLine("============================================");
-        Console.WriteLine("| Welcome to this Mini DnD inspired Game! |");
+        Console.WriteLine("| Welcome to this Mini DnD Game! |");
         Console.WriteLine("============================================");
         Console.Write("\nEnter your character's name: ");
         string playerName = Console.ReadLine();
@@ -42,7 +42,7 @@ class MiniDnDGame
         int[,] penalties = {
             {15, 20, 25},   //Scene 1     
             {30, 25, 35},   //Scene 2    
-            {40, 60, 50}    //Scene 3    
+            {40, 60, 50}     
         };
 
         string[] sceneTitles = {
