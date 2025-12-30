@@ -8,7 +8,8 @@ This game has features:
 - D20 rolls
 - NAT 1 / Critical Failure
 - Roll Threshold 
-- Random curse that can override success 
+- Random curse that can override success
+- Added a Lucky Charm to nullify this random curse
 - 3 options per scene (Since it’s mini, no custom action can be done by the player)
 - Scaling penalty (HP reduction proportionally ascend with the scene)
 
