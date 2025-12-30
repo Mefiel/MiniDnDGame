@@ -1,6 +1,6 @@
 ﻿using System;
 
-class MiniDNDGame{
+class MiniDnDGame{
     static void Pause()
     {
         Console.Write("\nPress any key to continue...");
