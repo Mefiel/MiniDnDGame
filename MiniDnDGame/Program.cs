@@ -5,7 +5,7 @@ class MiniDNDGame{
     {
         Console.Write("\nPress any key to continue...");
         Console.ReadKey(true);
-        Console.Write(new string(' ', Console.WindowWidth)); 
+        Console.Write(new string(' ', Console.WindowWidth)); // Clear the line
         Console.SetCursorPosition(0, Console.CursorTop - 1);
     }
 
